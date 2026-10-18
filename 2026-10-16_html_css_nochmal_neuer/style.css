@@ -1,0 +1,97 @@
+body {
+background-color: #b6e9ba;
+color: rgb(4, 7, 92);
+ font-family:  Calibri;
+ max-width: 900px; 
+    margin: 0 auto;    
+}
+
+h1 {
+    color: #960c7f;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+     margin-top: 30px;
+   
+}
+
+h2 {
+    color: #e67e22; 
+    margin-top: 30px;
+}
+
+h3 {
+    color: #870404; 
+    margin-top: 30px;
+}
+
+ol, ul {
+    background: #fff;
+    padding: 20px 20px 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+table {
+    width: 35%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.rezept-kopf {
+    display: flex;     
+    flex-wrap: wrap;     
+    gap: 20px;           
+    align-items: flex-start;
+    clear: both;        
+}
+
+
+
+
+.buttonzeile
+{
+display: flex; 
+gap: 10px;
+align-items: stretch; 
+}
+
+
+
+
+.hervorheben
+{background-color: #036c29; color: #FFFFFF; padding: 10px; text-align: center; font-size: 16px;
+height: 60px; 
+width: 250px; 
+margin: 5px; 
+transition: all 0.4s;
+border-radius: 8px;} 
+
+.hervorheben:hover
+{
+margin: 0px; 
+font-size: 24px; 
+height: 80px; 
+width: 300px; 
+border-radius: 8px;
+}
+
+
